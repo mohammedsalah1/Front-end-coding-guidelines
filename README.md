@@ -37,7 +37,7 @@ Front end team coding style guidelines for code review.
 9. Use Promises or Asyns/Await. Rejection is handled.
 
 
-##Angular code review
+## Angular code review
 
 1. Code Modularity  
   Layered Code with good Modularity.
