@@ -36,7 +36,47 @@ Front end team coding style guidelines for code review.
 8. Use destructuring assignment for arrays and objects.
 9. Use Promises or Asyns/Await. Rejection is handled.
 
+
 ##Angular code review
+
+1. Code Modularity  
+  Layered Code with good Modularity.
+2. Component per File 
+  Each file must not contain more than one Component/Controller, etc.
+3. Routing
+  Always configure routing with lazy loading
+4. Shared Resources at Centralized Location
+  Store images/language translations under assets
+5. 3rd Party Libraries 
+ If you are integrating with any 3rd party libraries make sure to check for Security Flaws
+6. Data Security 
+  Use  Encryption of Sensitive Data 
+7. Offline Data Security
+  Consider security if you are storing Data in localstorage or session storage.
+8. Cookies Data and Handwiring of Secrets
+  Security Flaws
+9. Do not use pipe / functions in the template
+  Calling function binding in the template will lead to  performance issue
+10. Change Detection + State Management & Reactive Extensions 
+  Use RxJS, NgRx/Store (or Redux)
+11. JavaScript or TypeScript
+ Stick to ONE & Avoid Hybrid
+12. Building/Packaging with WebPack (or similar)
+ Bundling, Chunking, Treeshaking, Minification, Uglification, Compression
+13. ECMAScript Compatibility -ES7 (2016)
+14. Angular Style Guide (Official Reference) 
+ https://angular.io/guide/styleguide
+15. AsyncService 
+ Adequate and Appropriate use of it.
+16. Hierarchical Components, Models, Interfaces, etc. (Inheritance Approach)
+17. Constants
+No-Scattered Hard-Coded constants data but must be at one place.
+18. Images, Fonts, Other Static Files.
+  Place them in respective directories and not scattered across.
+19. TSLint.json 
+  To follow Angular Style Guide in order to run SonarQube or Codelyzer. Follow https://github.com/Angular-Projects-V-1-to-X/codelyzer
+#20 Finally if you need to improve Performance - https://github.com/mgechev/angular-performance-checklist
+
 
 
 ## React code review
