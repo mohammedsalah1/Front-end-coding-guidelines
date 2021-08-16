@@ -6,7 +6,7 @@ Front end team coding style guidelines for code review.
 1. Does the code work?
 2. Description of the project status is included.
 3. Code is easily understand.
-4. Code is written following the coding standarts/guidelines (React in our case).
+4. Code is written following the coding standarts/guidelines.
 5. Code is in sync with existing code patterns/technologies.
 6. DRY. Is the same code duplicated more than twice?
 7. Can the code be easily tested (don't forget about React components)?
@@ -35,6 +35,9 @@ Front end team coding style guidelines for code review.
 7. Use template literals.
 8. Use destructuring assignment for arrays and objects.
 9. Use Promises or Asyns/Await. Rejection is handled.
+
+##Angular code review
+
 
 ## React code review
 
