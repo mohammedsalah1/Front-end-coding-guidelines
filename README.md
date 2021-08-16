@@ -1,7 +1,6 @@
-# Front-end-coding-guidelines
+# Front end codingguidelines
 Front end team coding style guidelines for code review.
 
-# Review checklist
 ## General
 
 1. Does the code work?
